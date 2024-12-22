@@ -1,0 +1,116 @@
+13/02/2024
+CSS
+-> Use href for linking
+-> Class selector is used to group the elements(.)
+-> id selector is used  to identify the element(#)
+-> Pseudo selector- when mouse pointer hover colour change(hover)
+-> visited- Change color once the link is visited(a:visited)
+-> (!important) keyword used in css to change the order of specificity
+-> CSS combinators
+	i. Descedant selector(space)
+	ii.Child selector(>)
+	iii.Adjacent sibling selector(+)
+	iv.General sibling selector(`)
+
+14/02/2024	
+POSITIONING 
+-> Static(default),Relational,Absolute,Fixed,Sticky.
+-> rem-used instead of pixels(1rem=60 pixels) also (em)
+-> font-size:min(60px,50vh);
+-> Work: Form Handling
+
+15/02/2024
+RESPONSIVE CSS
+-> Grid,FlexBox.
+
+19/02/2024
+JavaScript--scripting language
+-> console.log("Hello World")
+-> Datatype-variable type,value type.
+-> variable type=var,let,const.
+-> var,let,const--Datatype
+-> var-Function scope
+-> let-Block scope
+-> const-Constant
+-> Undefined,Nan-Not a number,Null
+-> Hoisting in javascript.
+-> Function
+-> Parametirized function console.log(`Good ${name}`)
+-> Arrow function 
+-> PEDMAS RULE
+
+21/02/2024
+Objects
+-> Two part when code executes--Memory,CodeLines.
+-> {}-to create Object.
+-> function-name :function()
+{
+	key:value
+}
+console.log(function-name)
+-> arrayofObject--[]
+
+23/02/2024
+-> Asynchronous - hold the output for sometime untill the content loaded.
+-> SetTimeout--used to create a waiting time.
+-> CallBack-- Function call statement-pass as parameter.
+
+26/02/2024
+-> Promises--Assurance for the engine in execution of code.
+-> Resolve,Reject-- blocks in if-else condition.
+-> Get API information as json data.
+-> Map to give result array of object.(iterator)
+-> catch- for rejection handling.
+-> (async)await keyword--If placed in one line no value stored in variable untill that line executes
+
+28/02/2024
+-> REACT.js-javascript library.
+-> Used to create UI components.
+-> Reusable
+-> SPA-DOM Manipulation.
+-> CBA-Component Base Architecture.(Reusable)
+-> Framework- Basic code is given and we can use it.
+-> library- We use the whole code as it is.
+
+19/03/24
+
+-> REST-REpresentational State Transfer.
+-> HTTP methods
+	1.GET
+	2.POST
+	3.PUT
+	4.DELETE
+-> Results
+	1.1xx-Information.
+	2.2xx-Successful.
+	3.3xx-Redirectional.
+	4.4xx-Client error.
+	5.5xx-Server error.
+
+10/04/2024
+
+-> SQL
+	->Table form,Relational
+	->2 axis X,Y
+	-> For elaborate increase vertical axis
+	-> SQL follows multiple rows and columns
+	-> Structured query language.
+	->Database
+	->Tables-Collections
+	->Columns-Field name
+	->Row-Record
+	->data-cell
+
+->NO SQL
+	->Not relational,(json format)
+	->key-value pairs
+	->It follows horizontal scaling
+	->Database
+	->No table format
+	->Columns-Key
+	->Row-Object
+	->data-value
+
+npm install --save-dev dotenv
+npm install mongoose
+npm install cors
